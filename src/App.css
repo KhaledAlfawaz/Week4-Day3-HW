@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.center Button {
+  margin: 10px;
+}
+
+
+.center2 {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
